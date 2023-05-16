@@ -2,7 +2,7 @@ import { DataSource } from "typeorm";
 import { AppDataSource } from "../../../data-source";
 import userListService from "../../../services/user/userList.service";
 
-describe("Create an user", () => {
+describe("List all users", () => {
   let connection: DataSource;
 
   beforeAll(async () => {
